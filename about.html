@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Frenchies</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .brand-color {
+            background-color: #83afc4;
+        }
+ 
+        .navbar {
+            background-color: #252f3f;
+        }
+
+        .navbar a {
+            color: white;
+        }
+
+        .button-blue {
+            background-color: #2b6cb0;
+        }
+    </style>
+</head>
+
+<body class="font-'Open Sans'">
+    <div class="header" id="myHeader">
+    <div class="navbar py-4 px-8 flex justify-between items-center">
+        <div class="flex items-center">
+            <a href="main2.html" class="text-lg mx-2">Home</a>
+            <a href="frenchies.html" class="text-lg mx-2">Photos</a>
+            <a href="about.html" class="text-lg mx-2">About</a>
+            <a href="contact.html" class="text-lg mx-2">Contact</a>
+            <div class="mx-2 text-white text-sm">
+                
+		<div></div>
+                <i style="font-family: SocialF" class="fab fa-instagram">c</i>
+                <a href="https://www.instagram.com/myprincessremi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="fab fa-instagram">- myprincessRemi</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <!-- Personal Information Section -->
+ <div style="background-color: white;" class="py-12 px-8">
+    <div class="text-center">
+        <h2 class="text-4xl">About us</h2>
+        <p class="text-lg my-4">At Princess Frenchies, our passion is rooted in the ethical and loving breeding of French Bulldogs, focusing on their health, well-being, and the betterment of the breed. As premier breeders, we are dedicated to responsible practices that not only yield beautiful Frenchies but also contribute to their joyful and well-tempered nature. Our journey is centered on raising these adorable dogs to bring endless love and companionship to families. Whether you’re an experienced breeder, a new French Bulldog owner, or simply considering adding a Frenchie to your family, join us in our commitment and explore our website as your comprehensive resource for all things related to French Bulldog breeding.</p>
+        <br>
+        <a href="frenchies.html" class="button-blue text-white py-2 px-4 rounded mx-2">View photos</a>
+    </div>
+</div>
+   
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+
+        window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+     document.getElementById("myHeader").style.fontSize = "30px";
+     } else {
+     document.getElementById("myHeader").style.fontSize = "90px";
+      }
+
+    }
+
+        </script>
+
+
+
+
+</body>
+
+</html>

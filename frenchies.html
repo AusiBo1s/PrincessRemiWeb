@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Frenchies</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .brand-color {
+            background-color: #83afc4;
+        }
+ 
+        .navbar {
+            background-color: #252f3f;
+        }
+
+        .navbar a {
+            color: white;
+        }
+
+        .button-blue {
+            background-color: #2b6cb0;
+        }
+
+       
+        .body {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+        .blue-text {
+        color: #2b6cb0;
+    }
+    
+        .box-border {
+        border: 1px solid #e2e8f0;
+        border-radius: 0.25rem;
+    }
+    
+        .brown-text {
+        color: #a0aec0;
+    }
+
+    </style>
+</head>
+
+<body class="font-'Open Sans'">
+    <div class="header" id="myHeader">
+    <div class="navbar py-4 px-8 flex justify-between items-center">
+        <div class="flex items-center">
+            <a href="main2.html" class="text-lg mx-2">Home</a>
+            <a href="frenchies.html" class="text-lg mx-2">Photos</a>
+            <a href="about.html" class="text-lg mx-2">About</a>
+            <a href="contact.html" class="text-lg mx-2">Contact</a>
+            <div class="mx-2 text-white text-sm">
+                
+		<div></div>
+                <i style="font-family: SocialF" class="fab fa-instagram">c</i>
+                <a href="https://www.instagram.com/myprincessremi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="fab fa-instagram">- myprincessRemi</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div class="max-w-4xl mx-auto p-6 bg-white box-border">
+    <h1 style="font-family: fancy; font-size: xx-large; "  class="text-2xl font-bold mb-4">Remi</h1>
+    <div class="flex mb-4">
+        <img src="remi3.jpg" alt="Silkston logo placeholder" width="100px" height="100px" class="mr-4">
+        <div>
+            <p class="blue-text font-bold">Contact: Tony</p>
+            <p class="blue-text font-bold">Location: Melbourne VIC</p>
+            <p class="blue-text font-bold">Email:</p>
+            <br>
+            <a href="https://www.instagram.com/myprincessremi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-white bg-blue-500 px-4 py-2 rounded">View Instagram photos</a>
+            <a href="https://www.facebook.com" class="text-white bg-blue-500 px-4 py-2 rounded">View Facebook photos</a>
+        </div>
+    </div>
+    <p class="mb-2 brown-text">We are excited to announce we are expecting beautiful puppy babies February 2024!!!</p>
+    <p class="mb-2 brown-text">Ready for their forever homes, in early April.</p>
+    <p class="mb-2 brown-text"></p>
+
+
+   
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+
+        window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+     document.getElementById("myHeader").style.fontSize = "30px";
+     } else {
+     document.getElementById("myHeader").style.fontSize = "90px";
+      }
+
+    }
+
+        </script>
+
+
+
+    </head>
+</body>
+
+</html>

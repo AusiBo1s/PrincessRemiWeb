@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Frenchies</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .brand-color {
+            background-color: #83afc4;
+        }
+ 
+        .navbar {
+            background-color: #252f3f;
+        }
+
+        .navbar a {
+            color: white;
+        }
+
+        .button-blue {
+            background-color: #2b6cb0;
+        }
+    </style>
+</head>
+
+<body class="font-'Open Sans'">
+    <div class="header" id="myHeader">
+    <div class="navbar py-4 px-8 flex justify-between items-center">
+        <div class="flex items-center">
+            <a href="main2.html" class="text-lg mx-2">Home</a>
+            <a href="frenchies.html" class="text-lg mx-2">Photos</a>
+            <a href="about.html" class="text-lg mx-2">About</a>
+            <a href="contact.html" class="text-lg mx-2">Contact</a>
+            <div class="mx-2 text-white text-sm">
+                
+		<div></div>
+                <i style="font-family: SocialF" class="fab fa-instagram">c</i>
+                <a href="https://www.instagram.com/myprincessremi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="fab fa-instagram">- myprincessRemi</a>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<div class="">
+    <div class="max-w-4xl mx-auto">
+        <br>
+        <br>
+
+      <h2 class="text-4xl font-semibold text-gray-800 mb-6">Get in touch</h2>
+      <p class="text-gray-600 mb-12"> We'd love to hear from you. Here's how you can reach us...</p>
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
+          <div class="bg-white rounded-lg p-6 shadow-lg">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-phone fa-2x text-blue-500"></i>
+              <h3 class="text-xl font-semibold ml-4">Message or Email</h3>
+            </div>
+            <p class="text-gray-600 mb-6">.</p>
+            
+            <p class="text-blue-500 font-semibold">Email:</p>
+            
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 px-4">
+          
+        </div>
+      </div>
+      <div class="flex justify-center items-center mt-12">
+        
+      </div>
+    </div>
+  </div>
+
+   
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+
+        window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+     document.getElementById("myHeader").style.fontSize = "30px";
+     } else {
+     document.getElementById("myHeader").style.fontSize = "90px";
+      }
+
+    }
+
+        </script>
+
+
+
+
+</body>
+
+</html>

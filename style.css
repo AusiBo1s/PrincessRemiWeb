@@ -1,0 +1,51 @@
+
+.remipcs {
+	width: 250px;
+}
+
+.body {
+
+}
+
+.hp1 {
+	background-color: rgba(131, 216, 255, 0.336);
+}
+
+@font-face { font-family: Fancy; src: url('Fancy.ttf'); }
+
+@font-face { font-family: SocialF; src: url('socialsf.ttf'); }
+
+
+
+  .header {
+	padding: 10px 16px;
+	background: #252f3f;
+	color: #f1f1f1;
+	color: black;
+	text-align: center; /* Centered text */
+	font-size: 90px; /* Big font size */
+	font-weight: bold;
+	position: fixed; /* Fixed position - sit on top of the page */
+	top: 0;
+	width: 100%; /* Full width */
+	transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+  }
+
+  
+
+  .content {
+	padding: 16px;
+  }
+
+
+  .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+  }
+
+  .sticky + .content {
+	padding-top: 102px;
+  }
+
+ 
